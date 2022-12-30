@@ -40,6 +40,28 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 173.5, 75.5, 41.0, 20.0 ],
+					"text" : "<- jsui"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 173.5, 41.0, 116.0, 20.0 ],
+					"text" : "<- target subpatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -100,7 +122,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
+					"bgcolor" : [ 0.019607843137255, 0.019607843137255, 0.019607843137255, 1.0 ],
 					"id" : "obj-1",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -163,14 +185,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jsui-scrollbar.js",
-				"bootpath" : "D:/src/Max 8/jsui-scrollbar",
+				"bootpath" : "~/Documents/src/max-jsui-scrollbar",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scrollbar-example-subpatcher.maxpat",
-				"bootpath" : "D:/src/Max 8/jsui-scrollbar",
+				"bootpath" : "~/Documents/src/max-jsui-scrollbar",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
