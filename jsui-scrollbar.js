@@ -5,7 +5,7 @@
  * @param {array} jsarguments<br>
  * 0: this file name<br>
  * 1: whole width of target subpathcer<br>
- * 2: width of scroll bar area<br>
+ * 2: width of scrollbar area<br>
  * 3: draw vertical bar when 1, otherwise horizontal *TODO*
  *
  * outlet: offset number for thispatcher objects in subpathcer
